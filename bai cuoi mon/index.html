@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+</head>
+	<link href="css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/site.css">
+
+<body>
+<div class="container">
+	<div class="menu">
+		<ul>
+			<li><a href="#mot"><font style="color: gray">WOMEN</font></a></li>
+			<li><a href="#hai"><font style="color: gray">MEN</font></a></li>
+			<li><a href="#ba"><font style="color: gray">SHOES</font></a></li>
+			<li><a href="#bon"><font style="color: gray">BRAND</font></a></li>
+		</ul>
+	</div>
+	<div class="icon">
+				<a href=""><i class="fa fa-facebook" style="font-size:24px"></i></a>
+				<a href=""><i class="fa fa-twitter" style="font-size:24px"></i></a>
+			</div>
+	<div class="account">
+				<a href=""><b>MY ACCOUNT</b></a>
+				<a href=""><i class="fa fa-heart" style="font-size:24px"></i></a>
+			</div>
+	
+	
+	
+	
+		<div id="mot" class="section">
+			<div class="body1">
+				<div class="tronvang"></div>
+				<div class="greyhoody"></div>
+				<div class="gray"></div>
+				<div class="hoody"></div>
+			</div>
+	</div>
+		
+	
+	
+		<div id="hai" class="section">
+			<div class="body1">
+			<div class="tronxanhla"></div>
+			<div class="jinu"></div>
+			<div class="WINNER"></div>
+			<div class="hoodie"></div>
+			</div>
+	
+	</div>
+	
+	
+	
+		<div id="ba" class="section">
+			<div class="body1">
+			<div class="tronhong"></div>
+			<div class="girl"></div>
+			<div class="nice"></div>
+			<div class="shoes"></div>
+			</div>
+	</div>
+	
+	
+		<div id="bon" class="section">
+			<img src="images/aaa.png">
+	</div>
+	
+	</div>
+	
+	
+	 <script src="js/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+	
+	
+</body>
+</html>
